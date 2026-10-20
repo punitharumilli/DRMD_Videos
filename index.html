@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Video guides – Digital Reference Material Document (DRMD)</title>
+<meta name="description" content="Video guides for the Digital Reference Material Document (DRMD): step-by-step videos with chapters and transcripts.">
+<meta name="author" content="Bundesanstalt für Materialforschung und -prüfung (BAM)">
+<meta name="theme-color" content="#ffffff">
+<meta name="color-scheme" content="light">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DRMD video guides">
+<meta property="og:description" content="Step-by-step videos for working with the Digital Reference Material Document (DRMD).">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/favicon-64.png" sizes="64x64" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/InterDisplay-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <div class="brand">
+      <a class="brand__bam" href="https://bam.de/en/" title="Bundesanstalt für Materialforschung und -prüfung (BAM)">
+        <img src="assets/bam-logo.png" width="113" height="46" alt="BAM – Bundesanstalt für Materialforschung und -prüfung">
+      </a>
+      <span class="brand__rule" aria-hidden="true"></span>
+      <a class="brand__drmd" href="https://punitharumilli.github.io/DRMD/" title="DRMD home">
+        <img class="brand__mark" src="assets/drmd-logo.png" width="72" height="44" alt="">
+        <span class="brand__text">
+          <span class="brand__name">DRMD</span>
+          <span class="brand__full">Digital Reference Material Document</span>
+        </span>
+      </a>
+    </div>
+    <nav class="nav" aria-label="DRMD resources">
+      <a href="https://punitharumilli.github.io/DRMD/">Home</a>
+      <a href="https://punitharumilli.github.io/BestPracticeDocs/">Guidance document</a>
+      <a href="https://punitharumilli.github.io/DRMD_Generator/">Generator</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap page-head">
+    <h1>Video guides</h1>
+    <p>Videos that show how to work with the DRMD, step by step.</p>
+  </div>
+
+  <div class="wrap" id="watch-area">
+    <div class="watch">
+      <div class="watch__main">
+        <div class="player" id="player" tabindex="0" role="region" aria-label="Video player">
+          <div class="p-stage">
+          <video id="video" controls preload="metadata" playsinline></video>
+
+          <button class="p-big" type="button" data-act="toggle">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8.5 5.6v12.8c0 .8.9 1.3 1.6.9l10-6.4a1 1 0 0 0 0-1.8l-10-6.4c-.7-.4-1.6.1-1.6.9z"/></svg>
+            <span class="p-big__label">Play video</span>
+          </button>
+          <div class="p-spinner" aria-hidden="true"></div>
+          <div class="p-osd" aria-hidden="true"></div>
+
+          <div class="p-resume" hidden>
+            <button class="p-resume__go" type="button"></button>
+            <button class="p-resume__x" type="button">Start from the beginning</button>
+          </div>
+
+          <div class="p-error" hidden>
+            <p>The video could not be loaded. <a class="p-error__link" href="#">Download the video</a> to watch it instead.</p>
+          </div>
+
+          </div>
+
+          <div class="p-bar">
+            <div class="p-seek">
+              <div class="p-track"><div class="p-buffered"></div><div class="p-played"></div><div class="p-marks"></div></div>
+              <input class="p-range" type="range" min="0" max="100" step="any" value="0" aria-label="Seek">
+              <div class="p-tip" aria-hidden="true"><strong></strong><span></span></div>
+            </div>
+            <div class="p-row">
+              <button class="p-btn p-play" type="button" data-act="toggle" aria-label="Play (k)">
+                <svg class="ico-play" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5.6v12.8c0 .8.9 1.3 1.6.9l10-6.4a1 1 0 0 0 0-1.8l-10-6.4C8.9 4.3 8 4.8 8 5.6z"/></svg>
+                <svg class="ico-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="13.5" y="5" width="4" height="14" rx="1" fill="currentColor"/></svg>
+              </button>
+              <button class="p-btn p-skip" type="button" data-act="back" aria-label="Back 10 seconds (j)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4.6 9.2A8 8 0 1 1 4 13"/><path fill="currentColor" d="M3.2 4.6 4 10.2l5.4-1.7z"/><text x="12.6" y="16.4" font-size="7.4" font-weight="700" text-anchor="middle" fill="currentColor" font-family="Inter, Arial, sans-serif">10</text></svg>
+              </button>
+              <button class="p-btn p-skip" type="button" data-act="forward" aria-label="Forward 10 seconds (l)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M19.4 9.2A8 8 0 1 0 20 13"/><path fill="currentColor" d="M20.8 4.6 20 10.2l-5.4-1.7z"/><text x="11.4" y="16.4" font-size="7.4" font-weight="700" text-anchor="middle" fill="currentColor" font-family="Inter, Arial, sans-serif">10</text></svg>
+              </button>
+              <div class="p-volume">
+                <button class="p-btn p-mute" type="button" data-act="mute" aria-label="Mute (m)">
+                  <svg class="ico-vol-on" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.5 9.2v5.6c0 .4.3.7.7.7h3.4l4.6 3.9c.5.4 1.2.1 1.2-.5V5.1c0-.6-.7-.9-1.2-.5L7.6 8.5H4.2c-.4 0-.7.3-.7.7z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M16.3 8.6a5 5 0 0 1 0 6.8M18.9 6a8.6 8.6 0 0 1 0 12"/></svg>
+                  <svg class="ico-vol-off" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.5 9.2v5.6c0 .4.3.7.7.7h3.4l4.6 3.9c.5.4 1.2.1 1.2-.5V5.1c0-.6-.7-.9-1.2-.5L7.6 8.5H4.2c-.4 0-.7.3-.7.7z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m16.5 9.5 5 5m0-5-5 5"/></svg>
+                </button>
+                <input class="p-vol" type="range" min="0" max="1" step="0.05" value="1" aria-label="Volume">
+              </div>
+              <span class="p-time"><span class="p-cur">0:00</span> / <span class="p-dur">0:00</span></span>
+              <span class="p-chapter" aria-hidden="true"></span>
+              <button class="p-btn p-speed" type="button" aria-haspopup="menu" aria-expanded="false" aria-label="Playback speed: normal">1×</button>
+              <div class="p-menu" role="menu" aria-label="Playback speed" hidden></div>
+              <button class="p-btn p-cc" type="button" data-act="captions" aria-label="Captions (c)" aria-pressed="false" hidden>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><text x="12" y="15.4" font-size="7.2" font-weight="700" text-anchor="middle" fill="currentColor" font-family="Inter, Arial, sans-serif">CC</text></svg>
+              </button>
+              <button class="p-btn p-pip" type="button" data-act="pip" aria-label="Picture-in-picture: play in a small window (i)" aria-pressed="false" hidden>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="12" y="11.5" width="7" height="5.5" rx="1" fill="currentColor"/></svg>
+              </button>
+              <button class="p-btn p-fs" type="button" data-act="fullscreen" aria-label="Full screen (f)">
+                <svg class="ico-fs-enter" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>
+                <svg class="ico-fs-exit" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 4v5H4M20 9h-5V4M15 20v-5h5M4 15h5v5"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="chapters" id="chapters" aria-labelledby="chapters-title" hidden>
+        <div class="chapters__head">
+          <h2 id="chapters-title">Chapters</h2>
+          <span class="chapters__count"></span>
+        </div>
+        <ol class="chapters__list"></ol>
+      </aside>
+
+    <div class="info">
+      <h2 id="v-title"></h2>
+      <p class="meta" id="v-meta"></p>
+      <p class="desc" id="v-desc"></p>
+      <div class="tools">
+        <a class="btn" id="v-download" href="#" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m-4.5-4.5L12 15l4.5-4.5M5 19.5h14"/></svg>
+          <span>Download video</span>
+        </a>
+        <button class="btn" id="v-copy" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M10 14a4.2 4.2 0 0 0 6 0l3-3a4.2 4.2 0 0 0-6-6l-1 1M14 10a4.2 4.2 0 0 0-6 0l-3 3a4.2 4.2 0 0 0 6 6l1-1"/></svg>
+          <span>Copy link to this point</span>
+        </button>
+      </div>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </div>
+
+    <div class="extra">
+      <details class="fold" id="v-transcript-wrap" hidden>
+        <summary>Transcript</summary>
+        <div class="fold__body transcript" id="v-transcript"></div>
+      </details>
+
+      <details class="fold">
+        <summary>Keyboard shortcuts</summary>
+        <div class="fold__body">
+          <p class="desc keys-intro">Click the video or move to it with the <kbd>Tab</kbd> key, then use these keys:</p>
+          <table class="keys">
+            <tbody>
+              <tr><th><kbd>Space</kbd> or <kbd>K</kbd></th><td>Play or pause</td></tr>
+              <tr><th><kbd>←</kbd> <kbd>→</kbd></th><td>Back or forward 5 seconds</td></tr>
+              <tr><th><kbd>J</kbd> <kbd>L</kbd></th><td>Back or forward 10 seconds</td></tr>
+              <tr><th><kbd>↑</kbd> <kbd>↓</kbd></th><td>Volume up or down</td></tr>
+              <tr><th><kbd>M</kbd></th><td>Sound on or off</td></tr>
+              <tr><th><kbd>F</kbd></th><td>Full screen on or off</td></tr>
+              <tr><th><kbd>I</kbd></th><td>Picture-in-picture: play in a small window</td></tr>
+              <tr><th><kbd>&lt;</kbd> <kbd>&gt;</kbd></th><td>Slower or faster</td></tr>
+              <tr><th><kbd>0</kbd> to <kbd>9</kbd></th><td>Jump to 0% to 90% of the video</td></tr>
+              <tr><th><kbd>Home</kbd> <kbd>End</kbd></th><td>Jump to the start or the end</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </div>
+    </div>
+  </div>
+
+  <p class="wrap empty" id="empty" hidden>No videos are available at the moment.</p>
+
+  <section class="wrap more" id="more" aria-labelledby="more-title" hidden>
+    <h2 id="more-title">All videos</h2>
+    <div class="grid" id="more-grid"></div>
+  </section>
+
+  <noscript><p class="wrap empty">The video player needs JavaScript. Please enable JavaScript in your browser to watch the videos.</p></noscript>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>© 2026 <a href="https://bam.de/en/">Bundesanstalt für Materialforschung <span class="nw">und -prüfung (BAM)</span></a></p>
+    <p><a href="mailto:drmd@bam.de">drmd@bam.de</a></p>
+  </div>
+</footer>
+
+<script src="videos.js"></script>
+<script src="assets/player.js"></script>
+</body>
+</html>
