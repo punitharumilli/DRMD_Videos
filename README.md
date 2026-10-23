@@ -45,6 +45,8 @@ As soon as there is more than one video, an "All videos" list appears below the 
 
 A video file must be smaller than 100 MB to be stored on GitHub. For screen recordings, H.264 at about 250 to 500 kbit/s keeps a 15-minute video well below that.
 
+Videos, posters and transcripts must be stored in this repository. For security, the page only loads files from this site (see the security policy at the top of `index.html`), so a video hosted elsewhere is not played; link to it instead.
+
 ---
 
 ## Contents of this repository
