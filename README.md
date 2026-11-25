@@ -2,7 +2,7 @@
 
 Videos that show how to work with the Digital Reference Material Document (DRMD), step by step.
 
-**Website:** <https://punitharumilli.github.io/DRMD_Videos/>
+**Website:** <https://bamresearch.github.io/drmd-videos/>
 
 ---
 
@@ -10,7 +10,7 @@ Videos that show how to work with the Digital Reference Material Document (DRMD)
 
 | Video | Length | Link |
 |---|---|---|
-| How to use the DRMD AI Generator | 12:32 | <https://punitharumilli.github.io/DRMD_Videos/?v=drmd-ai-generator> |
+| How to use the DRMD AI Generator | 15:24 | <https://bamresearch.github.io/drmd-videos/?v=drmd-ai-generator> |
 
 Each video has chapters and a transcript, and can be downloaded as an MP4 file.
 
@@ -57,7 +57,7 @@ videos.js                      the list of videos
 assets/
 ├── site.css                   layout and colours
 ├── player.js                  the video player
-├── bam-logo.png, drmd-logo.png, favicon-32.png, favicon-64.png, apple-touch-icon.png
+├── bam-logo.jpg, drmd-logo.png, drmd-logo-640.png, favicon-32.png, favicon-64.png, apple-touch-icon.png
 └── fonts/                     Inter typeface (WOFF2) and its licence
 videos/
 └── drmd-ai-generator/         video, poster picture and transcript
@@ -75,7 +75,7 @@ The site is published with GitHub Actions.
 
 A publication can also be started by hand: **Actions → Publish on GitHub Pages → Run workflow**.
 
-GitHub Pages allows about 100 GB of traffic per month, which is roughly 3,000 complete views of a 30 MB video. If the videos are watched much more often, a video archive such as the TIB AV-Portal (with DOI and long-term preservation) can host them, and this site can link to it.
+GitHub Pages allows about 100 GB of traffic per month, which is roughly 1,200 complete views of the 85 MB video. If the videos are watched much more often, a video archive such as the TIB AV-Portal (with DOI and long-term preservation) can host them, and this site can link to it.
 
 ---
 
@@ -83,6 +83,7 @@ GitHub Pages allows about 100 GB of traffic per month, which is roughly 3,000 co
 
 - **Inter** typeface: SIL Open Font License 1.1, see `assets/fonts/LICENSE.txt`.
 - The **BAM** name and logo belong to the Bundesanstalt für Materialforschung und -prüfung (BAM).
+- The **DRMD logo** belongs to BAM and is not covered by any open licence; it may be used as described in [LOGO_POLICY.md](LOGO_POLICY.md).
 
 ---
 
